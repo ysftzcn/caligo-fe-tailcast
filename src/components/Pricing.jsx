@@ -104,7 +104,7 @@ export const Pricing = () => {
                   </ul>
                   <div
                     className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
-                    onClick={() => setIsModalOpen(true)}
+                    onclick="javascript.location.href='https://calendly.com/caligosec/30min'"
                   >
                     Get Started
                   </div>
@@ -166,12 +166,12 @@ export const Pricing = () => {
                       </li>
                     ))}
                   </ul>
-                  <div
+                  <a
                     className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
-                    onClick={() => setIsModalOpen(true)}
-                  >
+                    href="https://calendly.com/caligosec/30min" target="blank"
+                    >
                     Get Started
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
