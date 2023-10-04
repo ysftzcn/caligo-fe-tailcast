@@ -23,24 +23,24 @@ export const InvitationModal = ({ setIsOpen }) => (
           <div className="flex relative">
             <div className="w-1/2 hidden lg:inline">
               <h2 className="mt-6 mb-2 text-5xl font-bold tracking-normal text-white">
-                Subscribe Now
+                Best
               </h2>
               <h2 className="text-5xl font-bold tracking-normal text-customSecondary">
-                Winter is coming
+                Cloud Security Platform
               </h2>
 
               <ul className="mb-6 text-white mt-12">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Vestibulum viverra</span>
+                  <span>Centralized Cloud Management</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Morbi mollis metus pretium</span>
+                  <span>Cost Optimization</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Etiam lectus nunc, commodo</span>
+                  <span>Compliance Assistance</span>
                 </li>
               </ul>
             </div>
@@ -55,24 +55,24 @@ export const InvitationModal = ({ setIsOpen }) => (
               </div>
 
               <h3 className="mb-7 text-2xl text-white font-bold leading-snug text-center">
-                Join 3,953 other developers
+                Check our Pitch Deck or Try Caligo
               </h3>
               <div className="flex flex-wrap -m-2">
-                <div className="w-full sm:w-4/5 p-2 mx-auto">
-                  <input
-                    className="px-4 py-4 w-full text-gray-500 font-medium text-center placeholder-gray-500 outline-none border bg-gray-300 border-gray-300 rounded-lg focus:ring focus:ring-indigo-300"
-                    id="newsletterInput3-1"
-                    type="text"
-                    placeholder="Your email address"
-                  />
+              <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
+                  <a
+                    className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out text-center duration-200"
+                    type="button" href="#" target="_blank"
+                  >
+                    Download Pitch Deck
+                  </a>
                 </div>
                 <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
-                  <button
-                    className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out duration-200"
-                    type="button"
+                  <a
+                    className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out text-center duration-200"
+                    type="button" href="https://app.caligosec.com" target="_blank"
                   >
-                    Join Now
-                  </button>
+                    Try Now
+                  </a>
                 </div>
               </div>
             </div>
