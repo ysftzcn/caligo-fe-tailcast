@@ -8,8 +8,8 @@ const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
   { label: "Features", href: "#features", ariaLabel: "Features" },
   { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
-  { label: "Feedback", href: "#feedback", ariaLabel: "Feedback" },
-  { label: "FAQ", href: "#FAQ", ariaLabel: "FAQ" },
+  { label: "About", href: "#feedback", ariaLabel: "About" },
+  { label: "Docs", href: "https://docs.caligosec.com/introduction/what-is-caligo-security", ariaLabel: "Docs " },
 ];
 
 export const Navbar = () => {
@@ -30,7 +30,7 @@ export const Navbar = () => {
                 <TailcastLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+                Caligo Security
               </div>
             </div>
           </a>
@@ -69,7 +69,7 @@ export const Navbar = () => {
               aria-label="source code"
             >
               <GithubIcon />
-              <span className="pt-px">Source code</span>
+              <span className="pt-px">Console</span>
             </a>
           </div>
         </motion.div>
@@ -114,7 +114,7 @@ export const Navbar = () => {
                 target="_blank"
               >
                 <GithubIcon />
-                Source code
+                Console
               </a>
             </div>
           </motion.div>
