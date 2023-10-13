@@ -43,7 +43,7 @@ export const Features2 = () => (
             <p className="mb-12 text-customGrayText leading-loose">
               Monitor and track data issues with ease using our intuitive and
               efficient issue tracking system. Stay ahead of potential problems
-              and improve your workflow.
+              and improve your cloud resources.
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">

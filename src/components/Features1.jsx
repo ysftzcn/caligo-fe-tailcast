@@ -26,9 +26,7 @@ export const Features1 = () => {
                 Unlike any tool you used before
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
-                Discover a new level of data analysis with our innovative and
-                user-friendly platform. Transform your business needs with actionable
-                insights.
+              Enhance incident investigation, prioritization and correlation with unmatched visibility of identities, assets, access privileges, and activities from a single pane of glass.
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">

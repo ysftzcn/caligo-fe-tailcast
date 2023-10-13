@@ -11,16 +11,16 @@ const footerData = [
   {
     title: "Important Links",
     items: [
-      "Organization Team",
-      "Our Journeys",
       "Roadmap",
       "Terms & Conditions",
       "Privacy Policy",
+      "Trust Center",
+      "Status Page",
     ],
   },
   {
     title: "Company",
-    items: ["About Us","Contact Us"],
+    items: ["About Us","Contact Us",],
   },
 ];
 
@@ -52,6 +52,12 @@ export const Footer = () => {
                   href="https://www.linkedin.com/company/caligosec/" target="_blank"
                 >
                   <FacebookIcon />
+                </a>
+                <a
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
+                  href="https://twitter.com/CaligoSecurity" target="_blank"
+                >
+                  <TwitterIcon />
                 </a>
               </div>
             </div>

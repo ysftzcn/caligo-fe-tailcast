@@ -35,12 +35,10 @@ export const FeaturesDiagonal = () => {
               Accelerate Your Success
             </span>
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Build &amp; Launch without problems
+            Save Time and Effort by Automating Access Reviews and Compliance Controls
             </h2>
             <p className="mb-16 text-customGrayText leading-loose">
-              Our platform enables you to launch your data-driven projects with
-              ease. Boost productivity and achieve better results. Empower your
-              decision-making with advanced analytics
+            Reduce security exposure and accelerate audit preparations by streamlining and automating Caligo Compliance Check (CCC) across your cloud environment
             </p>
             <div
               className="w-[210px] h-12 custom-button-colored mr-10 "
