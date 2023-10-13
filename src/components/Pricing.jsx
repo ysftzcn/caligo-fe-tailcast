@@ -104,7 +104,7 @@ export const Pricing = () => {
                   </ul>
                   <div
                     className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
-                    onclick="javascript.location.href='https://calendly.com/caligosec/30min'"
+                    onClick={() => setIsModalOpen(true)}
                   >
                     Get Started
                   </div>

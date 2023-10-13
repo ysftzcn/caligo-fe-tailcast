@@ -74,6 +74,14 @@ export const InvitationModal = ({ setIsOpen }) => (
                     Try Now
                   </a>
                 </div>
+                <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
+                  <a
+                    className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out text-center duration-200"
+                    type="button" href="https://calendly.com/caligosec/30min" target="_blank"
+                  >
+                    Request A Quate
+                  </a>
+                </div>
               </div>
             </div>
             <div
