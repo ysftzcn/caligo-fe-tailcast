@@ -166,12 +166,12 @@ export const Pricing = () => {
                       </li>
                     ))}
                   </ul>
-                  <a
+                  <div
                     className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
-                    href="https://calendly.com/caligosec/30min" target="blank"
+                    onClick={() => setIsModalOpen(true)}
                     >
                     Get Started
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>

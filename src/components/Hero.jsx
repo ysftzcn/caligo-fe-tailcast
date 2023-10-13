@@ -56,12 +56,12 @@ export const Hero = () => {
             >
               Get Started
             </div>
-            <div
+            <a
               className="w-64 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition"
-              onclick="javascript.location.href='https://calendly.com/caligosec/30min'"
+              href="https://calendly.com/caligosec/30min" target="_blank"
             >
               Request A Quate
-            </div>
+            </a>
           </div>
         </motion.div>
         <motion.div
