@@ -9,22 +9,22 @@ const testimonialsData = [
   {
     customerName: "Yusuf TEZCAN",
     customerTitle: "Founder & Head of Security",
-    content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+    content:"Yusuf is working as a Senior Cloud Security Engineer and With more than 10 years of experience and He solves the challenges in cloud environments with Caligo and presents them to you.",
+      
     image: testimonial1,
   },
   {
     customerName: "Yasin TEZCAN",
     customerTitle: "Head of Sales & Marketing",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "Yasin has worked for many years in constant communication with customers and is now ready to spread the word about the security of cloud environments with Caligo. ",
     image: testimonial2,
   },
   {
     customerName: "Mücahit TEZCAN",
     customerTitle: "Head of Development",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "Mücahit works as a Senior Software Developer in Caligo team and plays a big role in the development of the application. He successfully manages SDLC processes.",
     image: testimonial3,
   },
 ];
@@ -50,26 +50,23 @@ export const Testimonials = () => (
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
           {testimonialsData.map((testimonial, index) => (
             <div
-              className="w-11/12 sm:w-4/5 md:w-[560px] lg:w-1/3 custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col px-6 py-4"
+              className="w-11/12 sm:w-4/5 md:w-[560px] lg:w-1/3 custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col px-6 py-4 items-center"
               key={`${testimonial.customerName}-${index}`}
             >
-              <div className="flex mb-2">
-                <QuoteIcon />
-              </div>
-              <div className="custom-content-text-white">
+              <div className="custom-content-text-white items-center">
                 "{testimonial.content}"
               </div>
-              <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
-                <img src={testimonial.image} alt="" width="45px" />
-                <div className="flex flex-col ml-4">
+              <div className="flex rounded-xl xl:mt-8 xl:mb-4">
+                <img src={testimonial.image} alt="" width="200px" style={{"border-radius":"5%"}} />
+              </div>
+              <div className="flex flex-col ml-4 items-center">
                   <div className="custom-content-text-white font-medium">
                     {testimonial.customerName}
                   </div>
-                  <div className="custom-content-text-gray">
+                  <div className="custom-content-text-gray items-center">
                     {testimonial.customerTitle}
                   </div>
                 </div>
-              </div>
             </div>
           ))}
         </div>
