@@ -1,5 +1,5 @@
 import { FacebookIcon } from "../assets/icons/FacebookIcon";
-import { InstagramIcon } from "../assets/icons/InstagramIcon";
+import { GithubIcon } from "../assets/icons/GithubIcon2";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
@@ -58,6 +58,12 @@ export const Footer = () => {
                   href="https://twitter.com/CaligoSecurity" target="_blank"
                 >
                   <TwitterIcon />
+                </a>
+                <a
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
+                  href="https://github.com/caligosec" target="_blank"
+                >
+                  <GithubIcon />
                 </a>
               </div>
             </div>
