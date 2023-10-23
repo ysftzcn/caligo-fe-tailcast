@@ -110,7 +110,7 @@ export const Navbar = () => {
               <a
                 className="text-white custom-border-gray rounded-xl
            bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-                href="https://app.caligosec.com"
+                href="http://app.caligosec.com"
                 target="_blank"
               >
                 <GithubIcon />
