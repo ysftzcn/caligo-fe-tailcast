@@ -56,7 +56,7 @@ export const Footer = () => {
     <img 
         src="https://appstonia.com/assets/images/trusted_eresidency.png" 
         alt="Trusted e-Residency" 
-        className="w-20 h-auto"
+        className="w-28 h-auto"
     />
 </div>
               <div className="w-36 mx-auto lg:mx-0">
@@ -134,7 +134,7 @@ export const Footer = () => {
             </div>
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2023. Caligo Security.
+            &copy; 2024. Caligo Security.
           </p>
         </div>
       </div>
