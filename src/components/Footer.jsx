@@ -47,11 +47,18 @@ export const Footer = () => {
               info@caligosec.com<br></br>
               Registered : 17048710
               </p>
-              <img 
-              src="https://appstonia.com/assets/images/eulogo.png" 
-              alt="EU Logo" 
-              className="w-16 h-auto mx-auto lg:mx-0 mb-10"
-              />
+              <div className="flex justify-center lg:justify-start mb-10">
+    <img 
+        src="https://appstonia.com/assets/images/eulogo.png" 
+        alt="EU Logo" 
+        className="w-16 h-auto mr-4"
+    />
+    <img 
+        src="https://appstonia.com/assets/images/trusted_eresidency.png" 
+        alt="Trusted e-Residency" 
+        className="w-16 h-auto"
+    />
+</div>
               <div className="w-36 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
