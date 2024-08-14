@@ -36,7 +36,7 @@ export const Footer = () => {
                   <TailcastLogo />
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-xl">
-                  Caligo Security
+                  Caligo Security OÜ
                 </div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
@@ -47,6 +47,11 @@ export const Footer = () => {
               info@caligosec.com<br></br>
               Registered : 17048710
               </p>
+              <img 
+              src="https://appstonia.com/assets/images/eulogo.png" 
+              alt="EU Logo" 
+              className="w-16 h-auto mx-auto lg:mx-0 mb-10"
+              />
               <div className="w-36 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
